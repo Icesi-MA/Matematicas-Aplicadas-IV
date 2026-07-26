@@ -23,6 +23,28 @@ project:
       repo: Icesi-MA/Matematicas-Aplicadas-IV
       ref: main
 
+  toc:
+    - file: README.md
+    - title: "Unidad 1: Sistemas de ecuaciones diferenciales ordinarias (EDO) de primer orden"
+      children:
+        - file: Notebooks/Cuaderno1.ipynb
+        - file: Notebooks/Cuaderno2.ipynb
+        - file: Notebooks/Cuaderno3.ipynb
+        - file: Notebooks/Cuaderno4.ipynb
+        - file: Notebooks/Cuaderno5.ipynb
+    - title: "Unidad 2: Sistemas lineales de ecuaciones diferenciales ordinarias"
+      children:
+        - file: Notebooks/Cuaderno6.ipynb
+        - file: Notebooks/Cuaderno7.ipynb
+        - file: Notebooks/Cuaderno8.ipynb
+        - file: Notebooks/Cuaderno9.ipynb
+        - file: Notebooks/Cuaderno10.ipynb
+    - title: "Unidad 3: Sistemas no lineales de ecuaciones diferenciales ordinarias"
+      children:
+        - file: Notebooks/Cuaderno11.ipynb
+        - file: Notebooks/Cuaderno12.ipynb
+        - file: Notebooks/Cuaderno13.ipynb
+
 site:
   template: book-theme
   options:
