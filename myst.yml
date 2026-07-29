@@ -13,6 +13,8 @@ project:
     - docencia
   authors:
     - name: "Editores: Angela Villota y Aníbal Sosa"
+  settings:
+    output_matplotlib_strings: remove
   # Template repository. When creating a course from this template,
   # change this URL to the new course repository.
   github: https://github.com/Icesi-MA/Matematicas-Aplicadas-IV
@@ -44,7 +46,7 @@ project:
         - file: Notebooks/Cuaderno7.ipynb
         - file: Entregas/Entrega7.ipynb
         - file: Notebooks/Cuaderno8.ipynb
-        - file: Entregas/Matemáticas Aplicadas IV-Entrega8.ipynb
+        - file: Entregas/MA_IV-Entrega8.ipynb
         - file: Notebooks/Cuaderno9.ipynb
         - file: Notebooks/Cuaderno10.ipynb
         - file: Jornadas/JRP2PColab.ipynb
@@ -52,17 +54,20 @@ project:
     - title: "Unidad 3: Sistemas no lineales de ecuaciones diferenciales ordinarias"
       children:
         - file: Notebooks/Cuaderno11.ipynb
-        - file: Entregas/Matemáticas Aplicadas IV-Entrega9.ipynb
+        - file: Entregas/MA_IV-Entrega9.ipynb
         - file: Notebooks/Cuaderno12.ipynb
-        - file: Entregas/Matemáticas Aplicadas IV-Entrega10.ipynb
+        - file: Entregas/MA_IV-Entrega10.ipynb
         - file: Notebooks/Cuaderno13.ipynb
         - file: Jornadas/JRP3PColab.ipynb
+    - title: "Proyecto final"
+      children:
+        - file: Proyecto/ProyectoMatematicasAplicadas4.ipynb
 site:
   template: book-theme
   options:
     logo: _static/icesi-logo.svg
     logo_dark: _static/icesi-logo-dark.svg
-    logo_text: Matemáticas Aplicadas X
+    logo_text: Matemáticas Aplicadas IV
     logo_url: https://www.icesi.edu.co/
     logo_alt: Universidad Icesi
     style: _static/icesi.css
